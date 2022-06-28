@@ -1,9 +1,9 @@
 Config = {}
 
-Config.minEarn = 100
-Config.maxEarn = 450
+Config.minEarn = 850
+Config.maxEarn = 2450
 Config.RegisterEarnings = math.random(Config.minEarn, Config.maxEarn)
-Config.MinimumStoreRobberyPolice = 2
+Config.MinimumStoreRobberyPolice = 1
 Config.resetTime = (60 * 1000) * 30
 Config.tickInterval = 1000
 
@@ -40,6 +40,11 @@ Config.Registers = {
     [30] = {vector3(-161.07, 6321.23, 31.5), robbed = false, time = 0, safeKey = 18, camId = 27},
     [31] = {vector3(160.52, 6641.74, 31.6), robbed = false, time = 0, safeKey = 19, camId = 28},
     [32] = {vector3(162.16, 6643.22, 31.6), robbed = false, time = 0, safeKey = 19, camId = 29},
+    [33] = {vector3(1698.35, 4922.75, 42.06), robbed = false, time = 0, safeKey = 19, camId = 29},
+    [34] = {vector3(1696.58, 4923.88, 42.06), robbed = false, time = 0, safeKey = 19, camId = 29},
+    [35] = {vector3(2557.22, 380.82, 108.62), robbed = false, time = 0, safeKey = 19, camId = 29},
+    [36] = {vector3(2555.1, 380.88, 108.62), robbed = false, time = 0, safeKey = 19, camId = 29},
+
 }
 
 Config.Safes = {
